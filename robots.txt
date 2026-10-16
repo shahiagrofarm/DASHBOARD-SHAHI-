@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shahiagrofarm.github.io/SHAHI-AGRO-FARM-OFFICIAL-NOAKHALI/sitemap.xml

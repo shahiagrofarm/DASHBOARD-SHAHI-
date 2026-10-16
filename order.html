@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Order SHAHI GRASS SILAGE from SHAHI AGRO FARM. Get quality livestock feed and contact us for ordering information in Bangladesh.">
+<title>Order Grass Silage | SHAHI AGRO FARM</title>
+
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://shahiagrofarm.github.io/SHAHI-AGRO-FARM-OFFICIAL-NOAKHALI/order.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Order Grass Silage | SHAHI AGRO FARM">
+<meta property="og:description" content="Order SHAHI GRASS SILAGE from SHAHI AGRO FARM. Get quality livestock feed and contact us for ordering information in Bangladesh.">
+<meta property="og:url" content="https://shahiagrofarm.github.io/SHAHI-AGRO-FARM-OFFICIAL-NOAKHALI/order.html">
+<meta property="og:site_name" content="SHAHI AGRO FARM">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="order">
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="SHAHI AGRO FARM home"><span class="brand-lockup"><img src="assets/logo.png" class="nav-brand-logo" alt="SHAHI AGRO FARM logo"><span class="brand-name">SHAHI AGRO FARM</span></span></a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav class="navlinks">
+    <a href="index.html" data-page="home" data-i18n="home">Home</a>
+    <a href="about.html" data-page="about" data-i18n="about">About</a>
+    <a href="benefits.html" data-page="benefits" data-i18n="benefits">Benefits</a>
+    <a href="order.html" data-page="order" data-i18n="order">Order</a>
+    <a href="contact.html" data-page="contact" data-i18n="contact">Contact</a>
+  </nav>
+  <div class="nav-tools">
+    <button class="settings-btn" id="settingsBtn" type="button" aria-label="Settings" title="Settings">⚙</button>
+  </div>
+  <a class="navcta" href="order.html" data-i18n="orderNow">ORDER NOW</a>
+</header>
+
+<div class="settings-panel" id="settingsPanel" aria-hidden="true">
+  <div class="settings-head">
+    <strong data-i18n="settings">Settings</strong>
+    <button type="button" id="closeSettings" aria-label="Close settings">×</button>
+  </div>
+  <div class="settings-row">
+    <span data-i18n="language">Language</span>
+    <div class="settings-options">
+      <button type="button" class="setting-choice" data-language="en">English</button>
+      <button type="button" class="setting-choice" data-language="bn">বাংলা</button>
+    </div>
+  </div>
+  <div class="settings-row">
+    <span data-i18n="theme">Theme</span>
+    <div class="settings-options">
+      <button type="button" class="setting-choice" data-theme-choice="light" data-i18n="bright">Bright</button>
+      <button type="button" class="setting-choice" data-theme-choice="dark" data-i18n="dark">Dark</button>
+    </div>
+  </div>
+</div>
+<div class="settings-backdrop" id="settingsBackdrop"></div>
+
+<main>
+<section class="page-hero"><div class="container reveal"><span class="kicker" data-i18n="orderKicker">Order</span><h1 data-i18n="orderTitle">SHAHI GRASS SILAGE.</h1><p>Choose your quantity and the website will calculate total weight and total price instantly.</p></div></section>
+<section class="section"><div class="container order-wrap">
+<div class="order-card reveal">
+<span class="eyebrow" data-i18n="availableNow">Available now</span>
+<h2 style="font-size:2.2rem">SHAHI GRASS SILAGE</h2>
+<div class="price">৳350 <span class="unit" data-i18n="perPacket">/ packet</span></div>
+<p class="lead"><span data-i18n="50kgPacket">50 KG per packet</span></p>
+<div class="notice"><span data-i18n="minMax">Minimum order: <strong>20 packets</strong> &nbsp; • &nbsp; Maximum order: <strong>400 packets</strong></span></div>
+<p class="qty-help" data-i18n="qtyHelp">Use ±10 for quick changes or ±1 for precise changes.</p>
+<div class="qty-row">
+  <div class="qty-control-group qty-step10">
+    <div class="qty-group-title" data-i18n="tenPackets">10 packets</div>
+    <div class="qty-buttons">
+      <button class="qty-btn" id="minus10" type="button" aria-label="Decrease quantity by 10">−10</button>
+      <button class="qty-btn" id="plus10" type="button" aria-label="Increase quantity by 10">+10</button>
+    </div>
+  </div>
+  <div class="qty-display-wrap">
+    <span class="qty-display-label" data-i18n="quantityLabel">Quantity</span>
+    <div class="qty-display" id="qty" aria-live="polite" aria-label="Quantity in packets">20</div>
+  </div>
+  <div class="qty-control-group qty-step1">
+    <div class="qty-group-title" data-i18n="onePacket">1 packet</div>
+    <div class="qty-buttons">
+      <button class="qty-btn" id="minus1" type="button" aria-label="Decrease quantity by 1">−1</button>
+      <button class="qty-btn" id="plus1" type="button" aria-label="Increase quantity by 1">+1</button>
+    </div>
+  </div>
+</div>
+<div class="calc">
+<div class="calc-box"><small data-i18n="totalWeightLabel">Total Weight</small><strong id="totalWeight">1,000 KG</strong></div>
+<div class="calc-box"><small data-i18n="totalPriceLabel">Total Price</small><strong id="totalPrice">৳7,000</strong></div>
+</div>
+<div class="notice payment-lock-note" id="paymentLockNote" style="margin-top:20px"><strong>WhatsApp confirmation is locked until payment details are valid.</strong><br>Choose a payment method below. For online payment, send the exact total amount and enter the Transaction ID first.</div>
+<div class="notice" style="margin-top:14px"><strong>Delivery Notice:</strong> Your order will be delivered within 24 hours after we receive the order.</div>
+<form class="form" id="orderForm">
+<div class="field"><label for="name">Customer Name</label><input id="name" required placeholder="Your name"></div>
+<div class="field"><label for="phone">Phone Number</label><input id="phone" required type="tel" placeholder="Your phone number"></div>
+<div class="field"><label for="address">Delivery Address</label><textarea id="address" rows="4" required placeholder="Full delivery address"></textarea></div>
+<div class="field payment-method-field"><label for="paymentMethod" data-i18n="paymentMethodLabel">Payment Method</label>
+<select id="paymentMethod" required>
+<option value="" data-i18n="selectPaymentMethod">Select payment method</option>
+<option value="bKash">bKash</option>
+<option value="Rocket">Rocket</option>
+<option value="Upay">Upay</option>
+<option value="COD" data-i18n="cod">Cash on Delivery</option>
+</select>
+<div class="send-money-card" id="sendMoneyCard" aria-live="polite" hidden>
+  <div class="send-money-card-top">
+    <div><span class="send-money-label">Send Money to <strong id="sendMoneyMethod">bKash</strong></span><small id="sendMoneyHint">Use Send Money to this number.</small></div>
+    <span class="send-money-badge" id="sendMoneyBadge">bKash</span>
+  </div>
+  <div class="send-money-number-row">
+    <strong id="sendMoneyNumber">01799900886</strong>
+    <button type="button" class="copy-payment-btn" id="copyPaymentNumber">Copy</button>
+  </div>
+  <div class="send-money-status" id="copyPaymentStatus" role="status"></div>
+</div></div>
+<div class="field"><label for="customerPaymentNumber" data-i18n="customerPaymentNumberLabel">Customer Payment Number</label><input id="customerPaymentNumber" required type="tel" placeholder="Number used to Send Money"></div>
+<div class="field"><label for="transactionId" data-i18n="transactionIdLabel">Transaction ID</label><input id="transactionId" required placeholder="Enter your transaction ID"></div>
+<div class="field" id="amountSentField"><label for="amountSent" data-i18n="amountSentLabel">Amount sent (৳)</label><input id="amountSent" type="number" min="1" step="1" inputmode="numeric" placeholder="Enter the exact amount you sent"></div>
+<div class="notice" data-payment-only data-i18n="transactionRequiredNotice">Enter the exact amount sent. Orders with an amount different from the total will be blocked. Transaction IDs still need to be verified against your payment account.</div>
+<button class="btn" type="submit" data-i18n="placeOrder">PLACE ORDER →</button>
+<a class="whatsapp-button" id="whatsappOrderButton" href="#" target="_blank" rel="noopener noreferrer" style="display:none;margin-top:12px;text-align:center">WhatsApp-এ অর্ডার কনফার্ম করুন →</a>
+<div class="notice" id="orderSummary">Your order summary will appear here after you submit.</div>
+</form>
+</div>
+<div class="order-visual reveal" id="paymentGallery" aria-label="SHAHI GRASS SILAGE product gallery">
+  <div class="payment-gallery" aria-live="polite">
+    <img class="payment-gallery-image is-active" src="assets/silage-stock-1.jpg" alt="SHAHI GRASS SILAGE prepared stock">
+    <img class="payment-gallery-image" src="assets/silage-stock-2.jpg" alt="SHAHI GRASS SILAGE stock ready for delivery">
+    <img class="payment-gallery-image" src="assets/shahi-pack-photo.jpg" alt="SHAHI GRASS SILAGE product photo">
+    <img class="payment-gallery-image" src="assets/grass-field.png" alt="Fresh green grass field">
+    <img class="payment-gallery-image" src="assets/order-grass-field.png" alt="Green grass field for SHAHI GRASS SILAGE">
+    <img class="payment-gallery-image" src="assets/farmer.png" alt="SHAHI AGRO FARM farming illustration">
+  </div>
+
+  <div class="payment-gallery-vignette"></div>
+
+  <div class="payment-gallery-bottom-glow" aria-hidden="true"></div>
+
+  <div class="payment-gallery-caption">
+    <strong>SHAHI GRASS SILAGE</strong>
+    <span>PER PACKET 50 KG&nbsp; | &nbsp;৳350 ONLY</span>
+  </div>
+</div>
+</div></section>
+</main>
+<footer class="footer">
+<div class="container footer-grid">
+  <div><h3>SHAHI AGRO FARM</h3><p>Modern farm products with a focus on practical, consistent livestock feed solutions.</p></div>
+  <div><h3>Explore</h3><p><a href="index.html">Home</a><br><a href="about.html">About</a><br><a href="benefits.html">Benefits</a><br><a href="order.html">Order</a><br><a href="contact.html">Contact</a><br><a href="connected-dashboard.html" rel="nofollow">Owner Dashboard</a></p></div>
+  <div><h3>Contact</h3><p>Babul Chearman Bari, Char Bojlul Korim, Char Bata-3813, Shubornochar, Noakhali</p><p><span class="footer-contact-label">WhatsApp</span><br><a href="https://wa.me/8801814026318" target="_blank" rel="noopener noreferrer">01814026318</a></p><p><span class="footer-contact-label">Phone 01</span><br><a href="tel:01799900886">01799900886</a></p><p><span class="footer-contact-label">Phone 02</span><br><a href="tel:01632638470">01632638470</a></p></div>
+</div>
+<div class="footer-social" aria-label="SHAHI AGRO FARM social media">
+  <div class="footer-social-icons">
+    <a class="social-icon social-facebook" href="https://www.facebook.com/share/1Fpd5uyuVb/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><span class="social-f">f</span></a>
+    <a class="social-icon social-instagram" href="https://www.instagram.com/shahi_agro_limited?stkn=MWUzM3R4Nmkzd3IwMw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.6" cy="6.6" r="1" class="social-dot"/></svg>
+    </a>
+    <a class="social-icon social-whatsapp" href="https://wa.me/8801814026318" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.1 11.5a8.1 8.1 0 0 1-12.2 7L3.5 20l1.6-4.1A8.1 8.1 0 1 1 20.1 11.5Z"/><path d="M8.2 8.1c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.8 1.8c.1.2.1.4-.1.6l-.6.7c.8 1.4 1.9 2.4 3.4 3.1l.6-.7c.2-.2.4-.2.6-.1l1.7.8c.3.1.4.3.3.6-.2.8-.9 1.5-1.7 1.5-1.4 0-3.8-1.3-5.5-3-1.6-1.7-2.7-3.9-2.6-5.2 0-.1 0-.1 0 0 .1 0 .1 0 0Z"/></svg>
+    </a>
+  </div>
+  <span>Follow us on our social media</span>
+</div>
+<div class="container footer-bottom"><span>© 2026 SHAHI AGRO FARM. All rights reserved.</span><span>SHAHI GRASS SILAGE</span></div>
+</footer>
+<script src="supabase-config.js"></script>
+<script src="analytics.js"></script>
+  <script src="script.js"></script>
+</body></html>
